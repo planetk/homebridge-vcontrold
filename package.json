@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-vcontrold",
+  "version": "0.0.1",
+  "description": "Plugin for homebridge: https://github.com/nfarina/homebridge to control Viessmann heatings via vcontrold http://openv.wikispaces.com/vcontrold",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin", "Viessmann", "vito", "vcontrold", "openv"
+  ],
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/planetk/homebridge-vcontrold.git"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "telnet-client": "0.4.1"
+  }
+}
