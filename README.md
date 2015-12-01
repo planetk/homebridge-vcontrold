@@ -1,19 +1,20 @@
 # homebridge-vcontrold
 
-This is a plugin for [homebridge](https://github.com/nfarina/homebridge). It provides access to a Viessmann heating unsing the [vcontrold](https://openv.wikispaces.com/vcontrold) demon.
+This is a plugin for [homebridge](https://github.com/nfarina/homebridge). It provides access to a Viessmann heating using the [vcontrold](https://openv.wikispaces.com/vcontrold) demon.
  
 # Prerequisits
 In order to use this plugin you need to connect your heating to a linux computer using the IR Interface of the heating. On that computer you need to set up the [vcontrold](https://openv.wikispaces.com/vcontrold) demon.
 
 Details on hardware and software setup are available on the [openv](https://openv.wikispaces.com) Homepage.
 
-I will not be responsible for anything that happens to your heating due to using this software. You do this on your own risk. I will also not be able to give any support for the setup ov vcontrold.
+I will not be responsible for anything that happens to your heating due to using this software. You do this on your own risk. I will also not be able to give any support for the setup of vcontrold.
 
 Please note the IP address and port vcontrold is running on. Check vcontrold.xml to find the port. Default is 3002.
 
 # Installation
 
 1. Install homebridge using: npm install -g homebridge
+   For Details and Prerequisits check the [homebridge](https://github.com/nfarina/homebridge) page
 2. Install this plugin using: npm install -g homebridge-vcontrold
 3. Update your configuration file (~/.homebridge/config.json). See following Configuration Chapter for details
 
@@ -87,7 +88,7 @@ Don't chang the platform setting.
 
 ### Accessories
 
-The plugin currently supports following differnt types of accessories. For each accessory a name, a type and a mapping to differen vcontrold commands needs to be defined.
+The plugin currently supports following differnt types of accessories. For each accessory a name, a type and a mapping to different vcontrold commands needs to be defined.
 
 The name of an accessory is up to your choice.
 The different types and there specific command mapping are described in the following chapters.
